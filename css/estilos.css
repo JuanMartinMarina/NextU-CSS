@@ -2,8 +2,15 @@
 	font-family: "Dancing-Script";
 	src: url(../fuentes/DancingScript-Bold.ttf);
 }
+
 body{
 	font-family: Dancing-Script;
+	background: black;
+}
+.container{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 header{
 	display: flex;
@@ -27,37 +34,61 @@ nav {
 }
 
 .inicio{
-	margin: 10px;
+	margin-left: 10px;
 }
 
 .paisajes{
-	margin: 10px;
+	margin-left: 10px;
 }
 
 .retratos{
-	margin:10px;
+	margin-left: 10px;
 }
 
 #imagen-central{
 	background-color: #82c3a6;
-	background-size: 600px;
+	background-size: 900px;
 	text-align: center;
 }
 
+footer{
+	background-color: #C6d5c5;
+	background-size: 900px;
+	display: inline-flex;
+	border-radius: 0 0 10px 10px;
+}
+
+p{
+	margin: 70px;
+}
+
 #imagenes-secundarias{
+	height: 500px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
 	background-color: #d5c75f;
 	background-size: 600px;
+	border: 1px;
 }
 .c1{
-
+	width: 75%;
+	margin: 10px;
+	margin-bottom: 20px; 
+	margin-top: 20px;
+	border: 2px solid black;
 }
 
 .c2{
-	
+	width: 75%;
+	margin: 10px;
+	border: 2px solid black;
 }
 
 .c3{
-	
+	width: 75%;
+	margin: 10px;
+	border: 2px solid black;
 }
 
 @media all and (max-width:300px){
@@ -75,7 +106,7 @@ nav {
 	}
 }
 
-@media all and (max-width:600px) and (min-width:300px){
+@media all and (max-width:900px) and (min-width:300px){
 .c1{
 	width:100%;
 	}
